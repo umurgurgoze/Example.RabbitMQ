@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f2a5a491-9afd-4e25-af78-c94718e3f275": {
+      "ProjectGuid": "f2a5a491-9afd-4e25-af78-c94718e3f275",
+      "DisplayName": "ExampleRabbitMQWeb.Watermark",
+      "ColorIndex": 0
+    },
+    "003ddf5a-72ba-40da-b844-1ad89b494f71": {
+      "ProjectGuid": "003ddf5a-72ba-40da-b844-1ad89b494f71",
+      "DisplayName": "ExampleRabbitMQ.Subscriber",
+      "ColorIndex": 1
+    },
+    "bdb49838-e185-4c4d-8725-e2f1c9fbed5b": {
+      "ProjectGuid": "bdb49838-e185-4c4d-8725-e2f1c9fbed5b",
+      "DisplayName": "ExampleRabbitMQ.Publisher",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

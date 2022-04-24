@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WJ5j9sxVN/MKVwCMysnnkjVJum3IyK54BEwnt5x0KvalkQezhAzGWJbZ+K2Y17l72QhPKgzu+MwwUfidOm9dfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\umurg\\Desktop\\Udemy Fatih Çakıroğlu\\RabbitMQ\\WatermarkApp\\ExampleRabbitMQ\\ExampleRabbitMq.Publisher\\ExampleRabbitMQ.Publisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\umurg\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\umurg\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\umurg\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
