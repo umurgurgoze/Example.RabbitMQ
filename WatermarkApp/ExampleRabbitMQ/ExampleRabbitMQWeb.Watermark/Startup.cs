@@ -27,8 +27,10 @@ namespace ExampleRabbitMQWeb.Watermark
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //1-RabbitMq servis uri aldýk.2-Baðlantý class'ýný oluþturduk.3-Publisher oluþturduk..
             services.AddSingleton(sp => new ConnectionFactory() { Uri = new Uri(Configuration.GetConnectionString("RabbitMQ")) });
             services.AddSingleton<RabbitMQClientService>();
+            services.AddSingleton<RabbitMQPublisher>();
 
             services.AddDbContext<AppDbContext>(options =>
             {

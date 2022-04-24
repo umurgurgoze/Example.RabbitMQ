@@ -4,7 +4,8 @@ using System;
 
 namespace ExampleRabbitMQWeb.Watermark.Services
 {
-    public class RabbitMQClientService : IDisposable //Dispose olduğunda RabbitMQ ilr ilgili bağlantıları kapatmak için alıyoruz.
+    //RabbitMQ bağlantı servisi
+    public class RabbitMQClientService : IDisposable //Dispose olduğunda RabbitMQ ile ilgili bağlantıları kapatmak için alıyoruz.
     {
         private readonly ConnectionFactory _connectionFactory;
         private IConnection _connection;
